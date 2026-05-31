@@ -221,6 +221,18 @@ code {
   overflow: hidden;
 }
 
+.section:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 4;
+  width: min(1040px, calc(100% - 2rem));
+  height: 1px;
+  transform: translateX(-50%);
+  background: rgba(159, 67, 102, 0.18);
+}
+
 .section-heading {
   width: min(760px, 100%);
   margin: 0 auto 2.5rem;
