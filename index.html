@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A cute romantic surprise birthday website made with love." />
+  <title>Happy Birthday My Everything</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <div id="loader" class="loader" role="status" aria-live="polite">
+    <div class="loader-heart" aria-hidden="true"></div>
+    <p>A Special Surprise Is Waiting...</p>
+  </div>
+
+  <nav class="nav glass" aria-label="Birthday website navigation">
+    <a class="brand" href="#hero" aria-label="Go to top">♡ June 02, 2026</a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="#letter">Letter</a>
+      <a href="#gallery">Photos</a>
+      <a href="#scratch">Scratch</a>
+      <a href="#cake">Cake</a>
+    </div>
+  </nav>
+
+  <div id="floatingHearts" class="floating-hearts" aria-hidden="true"></div>
+  <div id="sparkleLayer" class="sparkle-layer" aria-hidden="true"></div>
+
+  <main>
+    <section id="hero" class="section hero">
+      <div class="parallax-orb orb-one"></div>
+      <div class="parallax-orb orb-two"></div>
+      <div class="hero-content reveal">
+        <h1>Happy Birthday My Everything! <span aria-hidden="true">❤️❤️❤️</span></h1>
+        <p class="hero-subtitle">
+          This is just for you baby, sana mapasaya ko ikaw poy
+        </p>        
+        <div class="music-player hero-music-player glass reveal">
+        <audio id="audioPlayer" preload="metadata" loop></audio>
+        <button id="playPause" class="round-btn" type="button" aria-label="Play music">▶</button>
+        <div class="music-meta">
+          <strong>I'll Risk It All</strong>
+          <span id="musicStatus">By Bruno Mars</span>
+          <div class="progress-track" id="musicProgress" aria-label="Music progress">
+            <span></span>
+          </div>
+        </div>
+        <label class="volume-control">
+          <span>Volume</span>
+          <input id="volumeControl" type="range" min="0" max="1" step="0.01" value="0.75" />
+        </label>
+      </div>
+
+        <button id="openSurprise" class="btn btn-primary" type="button">
+          Scroll down baby
+        </button>
+      </div>
+      <a class="scroll-cue" href="#letter" aria-label="Scroll to love letter section">
+        <span></span>
+      </a>
+    </section>
+
+    <section id="letter" class="section letter-section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">This is for my Birthday Girl</span>
+        <h2>Open it babeko!</h2>
+      </div>
+      <div class="letter-stage reveal">
+        <button id="envelope" class="envelope" type="button" aria-label="Open love letter">
+          <span class="envelope-flap"></span>
+          <span class="envelope-heart">❤</span>
+          <span class="envelope-label">Tap to open</span>
+        </button>
+        <article id="letterPaper" class="letter-paper glass" aria-live="polite">
+          <h3 id="letterTitle">To my birthday girl,</h3>
+          <p id="letterText"></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="section-heading reveal">
+        <h2>❤️❤️❤️</h2>
+        <h2>Photo Gallery</h2>
+      </div>
+      <div id="galleryGrid" class="gallery-grid reveal"></div>
+    </section>
+
+    <section id="scratch" class="section scratch-section">
+      <div class="scratch-wrap reveal">
+        <div class="scratch-card glass">
+          <div class="scratch-photo">
+            <img id="scratchImage" alt="Hidden romantic surprise" />
+            <div class="scratch-reveal-message">
+              <span id="scratchMessage">This hidden moment belongs to you.</span>
+            </div>
+          </div>
+          <canvas id="scratchCanvas" aria-label="Scratch to reveal hidden photo"></canvas>
+        </div>
+        <div class="scratch-actions">
+          <button id="resetScratch" class="btn btn-secondary" type="button">Reset Scratch Card</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="cake" class="section cake-section">
+      <div class="section-heading reveal">
+        <h2>Make a wish baby</h2>
+        <p>e Tap mo lang ang candles kapag iblow mo na poy</p>
+      </div>
+      <div id="birthdayCake" class="cake reveal" role="button" tabindex="0" aria-label="Tap candles to blow them out">
+        <div class="candles">
+          <span class="candle"><i></i></span>
+          <span class="candle"><i></i></span>
+          <span class="candle"><i></i></span>
+        </div>
+        <div class="cake-top"></div>
+        <div class="cake-mid"></div>
+        <div class="cake-base"></div>
+      </div>
+      <p id="cakeWish" class="cake-wish">Your wish is safe with my heart hehe</p>
+    </section>
+
+    <section id="fireworks" class="section fireworks-section">
+      <canvas id="fireworksCanvas" aria-hidden="true"></canvas>
+      <div class="fireworks-stars" aria-hidden="true"></div>
+      <div class="section-heading fireworks-heading reveal"></div>
+      <div class="couple-scene" aria-label="A couple watching the fireworks together">
+        <div class="moon" aria-hidden="true"></div>
+        <div class="couple">
+          <div class="person person-left">
+            <span class="hair"></span>
+            <span class="head"></span>
+            <span class="neck"></span>
+            <span class="torso"></span>
+            <span class="shoulder"></span>
+            <span class="body"></span>
+            <span class="arm"></span>
+            <span class="leg leg-one"></span>
+            <span class="leg leg-two"></span>
+          </div>
+          <div class="person person-right">
+            <span class="hair"></span>
+            <span class="head"></span>
+            <span class="neck"></span>
+            <span class="torso"></span>
+            <span class="shoulder"></span>
+            <span class="body"></span>
+            <span class="arm"></span>
+            <span class="leg leg-one"></span>
+            <span class="leg leg-two"></span>
+          </div>
+          <span class="holding-hands"></span>
+          <span class="shared-heart">❤</span>
+        </div>
+        <div class="ground"></div>
+      </div>
+    </section>
+  </main>
+
+  <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button id="lightboxClose" type="button" aria-label="Close photo viewer">×</button>
+    <button id="lightboxPrev" type="button" aria-label="Previous photo">‹</button>
+    <img id="lightboxImage" alt="Selected memory" />
+    <button id="lightboxNext" type="button" aria-label="Next photo">›</button>
+  </div>
+
+  <canvas id="confettiCanvas" class="confetti-canvas" aria-hidden="true"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
