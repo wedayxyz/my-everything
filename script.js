@@ -55,7 +55,7 @@ let audioContext;
 
 const isMobileFireworks = window.matchMedia("(max-width: 760px), (pointer: coarse)").matches;
 const FIREWORK_SETTINGS = {
-  canvasScale: isMobileFireworks ? 0.45 : 0.7,
+  canvasScale: isMobileFireworks ? 1 : 1,
   frameInterval: isMobileFireworks ? 40 : 24,
   autoDelayMin: isMobileFireworks ? 1800 : 900,
   autoDelayMax: isMobileFireworks ? 3000 : 1500,
@@ -181,13 +181,13 @@ function setupMusicPlayer() {
     } else {
       audio.pause();
       playPause.textContent = "▶";
-      musicStatus.textContent = "Paused, but the romance is still buffering.";
+      musicStatus.textContent = "By Bruno Mars";
     }
   });
 
   audio.addEventListener("play", () => {
     playPause.textContent = "❚❚";
-    musicStatus.textContent = "Scroll na ikaw baby";
+    musicStatus.textContent = "By Bruno Mars";
   });
 
   audio.addEventListener("error", () => {
@@ -422,7 +422,7 @@ function paintScratchCover(width, height) {
   context.textAlign = "center";
   context.textBaseline = "middle";
   context.font = `800 ${Math.max(18, width * 0.055)}px Inter, system-ui, sans-serif`;
-  context.fillText("Scratch to reveal", width / 2, height / 2 - 14);
+  context.fillText(width / 2, height / 2 - 14);
   context.font = `700 ${Math.max(13, width * 0.032)}px Inter, system-ui, sans-serif`;
   context.fillText(width / 2, height / 2 + 28);
 }
