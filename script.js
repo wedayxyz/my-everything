@@ -2,25 +2,47 @@
    EASY CUSTOMIZATION VARIABLES
    Change these values before deploying to Vercel.
    ========================================================= */
-const GIRLFRIEND_NAME = "My Love";
-const BIRTHDAY_DATE = "2026-06-01";
+const GIRLFRIEND_NAME = "Barbie";
+const BIRTHDAY_DATE = "2026-06-02";
 const MUSIC_FILE_PATH = "assets/romantic-music.mp3";
 const SCRATCH_CARD_IMAGE_PATH = "assets/scratch-photo.webp";
-const SCRATCH_CARD_MESSAGE = "baby pn ged sya pero saguna na 20 years old dn pero smpre baby ko bun ged man hmm ❤️❤️❤️";
+const SCRATCH_CARD_MESSAGE = "baby pn ged sya pero saguna na 20 years old dn pero smpre baby ko bun ged man hehe ❤️❤️❤️";
 
 const LOVE_LETTER_TEXT = `Happy birthday, my beautiful ${GIRLFRIEND_NAME}.
 
-Today is not just a date on the calendar. It is the day the world became softer, brighter, and more magical because you arrived in it.
+Today is all about you, and before anything else, I want you to know how grateful I am that you were born. Out of all the people in this world, somehow our paths crossed, and that became one of the best things that has ever happened to me.
 
-I wish I could wrap every good feeling I have for you into one perfect gift: every laugh you gave me when I needed light, every quiet moment when your presence felt like home, every tiny detail about you that makes my heart pause and smile.
+This past year/days wasn't always perfect. We both had our own challenges, worries, responsibilities, and moments when things felt difficult. But through all of that, one thing never changed is my love, understanding, appreciation and care for you. Every conversation, every sweet moments, every story you shared, and even our random talks that didn't seem important at the time became memories that I treasure more than you know.
 
-You are my favorite hello, my safest place, my sweetest thought, and the person who makes ordinary days feel secretly golden. I love the way you care, the way you dream, the way you smile, and the way you turn even simple moments into memories I want to keep forever.
+You have become such an important part of my life. You're someone I look forward to talking to every day, someone whose happiness genuinely matters to me. Whenever something good happens, you're one of the first people I want to tell. Whenever things get hard, your words somehow make me feel better. That's how much of a difference you've made in my life.
 
-On your birthday, I hope you feel deeply loved—not just by words, but by the universe itself. I hope this year brings you brave opportunities, gentle peace, silly laughter, beautiful surprises, and dreams that unfold better than you imagined.
+On your birthday, I hope you take a moment to appreciate yourself the way the people who love you appreciate you. I hope you realize how beautiful your heart is and how deserving you are of all the good things life has to offer. Sometimes you're too hard on yourself, and I wish you could see yourself through my eyes. You would see someone strong, caring, intelligent, beautiful, and incredibly lovable.
 
-Thank you for being you. Thank you for letting me love you. Thank you for making my life warmer just by being in it.
+Thank you for being patient with me on days when I'm not at my best. Thank you for understanding me, supporting me, and accepting me for who I am. Thank you for all the effort you put into us.
 
-Happy birthday, my love. I am so lucky to celebrate you today and every day. ❤️`;
+I know we're not together physically today, and I wish I could celebrate this day with you in person. I wish I could see your smile, hold your hand, and make this birthday even more special for you. But even though we're apart right now, a part of me is always with you.
+
+No matter the distance, you're still the person I want beside me through every chapter of life. The person I want to build a home with, grow old with, and share both the ordinary and extraordinary moments with. I want to buy a house with you. I want to marry you. I want to travel the world with you, create countless memories, and experience everything life has to offer by your side. I want to build a family with you, have children, and watch our dreams slowly become reality together.
+
+More than anything, I WANT TO DO IT ALL WITH YOU.
+
+Whenever I think about the future, you're always part of it. Not because I have everything figured out, but because you're the person I genuinely want to keep choosing every day. You're someone I want to celebrate during the happiest moments and support during the difficult ones. You're someone I want to laugh with, grow with, and create a lifetime of memories with.
+
+As you begin another year of your life, I hope you never forget how amazing you are. I hope you continue chasing your dreams and believing in yourself, even during moments when things seem difficult. I hope this year brings you happiness, success, good health, peace of mind, and endless opportunities. You deserve every beautiful thing life has to offer.
+
+Please don't be too hard on yourself. Sometimes you don't see how incredible you are, but I do. I see your strength, your beautiful heart, your determination, and your kindness. I see someone who deserves to be loved, appreciated, and celebrated not just today, but every single day.
+
+Thank you for being you. Thank you for allowing me to be part of your life. Thank you for every memory we've shared and every memory we're still going to create together.
+
+I may not be there beside you right now, but I am celebrating you from here with all my heart. I hope your day is filled with laughter, happiness, delicious food, wonderful moments, and all the love you deserve.
+
+Happy Birthday, ${GIRLFRIEND_NAME}.
+
+I love you more than words can fully express, and I will always be grateful that you are part of my life. May this year bring you closer to every dream in your heart, and may you always remember that no matter where life takes us, there will always be someone here loving you, supporting you, and cheering for you every step of the way.
+
+Happy Birthday once again, baby. ❤️💋
+
+Forever yours.`;
 
 const GALLERY_IMAGE_PATHS = [
   "assets/photo-1.webp",
