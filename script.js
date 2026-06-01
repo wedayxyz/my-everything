@@ -23,12 +23,15 @@ Thank you for being you. Thank you for letting me love you. Thank you for making
 Happy birthday, my love. I am so lucky to celebrate you today and every day. ❤️`;
 
 const GALLERY_IMAGE_PATHS = [
-  createMemorySvg("Our Sweetest Smile", "#ffd6e8", "#dcd2ff"),
-  createMemorySvg("Birthday Queen", "#fff1d8", "#ff8fbd"),
-  createMemorySvg("Forever Favorite", "#e8ddff", "#d9a08f"),
-  createMemorySvg("Tiny Magic", "#ffe4ef", "#bca8ff"),
-  createMemorySvg("Soft Memories", "#fff7fb", "#ff9fc7"),
-  createMemorySvg("My Safe Place", "#f6e9ff", "#ffd1e3")
+  "assets/photo-1.webp",
+  "assets/photo-2.webp",
+  "assets/photo-3.webp",
+  "assets/photo-4.webp",
+  "assets/photo-5.webp",
+  "assets/photo-6.webp",
+  "assets/photo-7.webp",
+  "assets/landscape-photo-1.webp",
+  "assets/landscape-photo-2.webp",
 ];
 
 /* =========================================================
@@ -257,7 +260,7 @@ function typeText(element, text, speed) {
 function renderGallery() {
   const gallery = document.getElementById("galleryGrid");
   gallery.innerHTML = GALLERY_IMAGE_PATHS.map((src, index) => `
-    <button class="gallery-item" type="button" style="--ratio:${index % 3 === 0 ? "4 / 5" : index % 3 === 1 ? "1 / 1" : "5 / 4"}" aria-label="Open memory ${index + 1}">
+    <button class="gallery-item" type="button" style="--ratio:${index >= 7 ? "1200 / 900" : "4 / 5"}" aria-label="Open memory ${index + 1}">
       <img src="${src}" alt="Romantic memory ${index + 1}" loading="lazy">
     </button>
   `).join("");
