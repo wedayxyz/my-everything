@@ -36,7 +36,7 @@ Thank you for being you. Thank you for allowing me to be part of your life. Than
 
 I may not be there beside you right now, but I am celebrating you from here with all my heart. I hope your day is filled with laughter, happiness, delicious food, wonderful moments, and all the love you deserve.
 
-Happy Birthday, ${GIRLFRIEND_NAME}.
+Happy Birthday, barbie ko.
 
 I love you more than words can fully express, and I will always be grateful that you are part of my life. May this year bring you closer to every dream in your heart, and may you always remember that no matter where life takes us, there will always be someone here loving you, supporting you, and cheering for you every step of the way.
 
